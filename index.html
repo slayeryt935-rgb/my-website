@@ -1,10 +1,131 @@
 <!DOCTYPE html>
-<html>
-<html>
-    <title>Meri Website</title>
-</html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Jervis Tech</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  position: fixed;
+  width: 100%;
+  background: rgba(15, 23, 42, 0.7);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+.hero p {
+  margin-top: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #020617;
+}
+</style>
+</head>
+
 <body>
-    <h1>hello bhai</h1><h1>
-    <p>website chal rahi hai!</p>
- </body>
+
+<header>
+  <div class="logo">Jervis</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Future of Digital Business</h1>
+    <p>Modern, Fast, Innovative</p>
+    <button class="btn">Get Started</button>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">Web Development</div>
+    <div class="card">AI Solutions</div>
+    <div class="card">Marketing</div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: contact@jervis.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Jervis. All rights reserved.</p>
+</footer>
+
+</body>
 </html>
